@@ -1,20 +1,4 @@
-﻿"""
-
-Other tasks
-
-- Get rid of reliance upon --space-- at end of file
-
-- Aggregate over a number of files, e.g. 2005-2010 (extra arguments)
-
-- Group by metric, e.g. by week, by month (extra arguments)
--- Must check number of days in year to ensure that haven't falsely aggregated, may
-	also not know which DAY to start the weekly/monthly aggregation on
-
-Download file
-
-"""
-
-import sys
+﻿import sys
 import urllib
 import gzip
 import datetime
@@ -283,3 +267,17 @@ def main():
 
 # RUN the program	
 main()
+
+"""
+Other tasks
+
+- Get rid of reliance upon --space-- at end of file
+
+- Aggregate over a number of files, e.g. 2005-2010 (extra arguments)
+
+- Group by metric, e.g. by week, by month (extra arguments)
+-- Must check number of days in year to ensure that haven't falsely aggregated, may
+	also not know which DAY to start the weekly/monthly aggregation on
+
+Download file
+"""
